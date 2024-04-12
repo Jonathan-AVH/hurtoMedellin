@@ -84,7 +84,7 @@ pagina_3 = Markdown("""
 
 <|layout|columns=1fr 1fr|
 
-## NUMERO DE CASOS POR RANGO DE EDADES **CASOS**{: .color-primary}<|{Rango_edades}|chart|mode=markers|x=Rango_edad|y=Numero_casos|marker={marker}|>
+## NÚMERO DE CASOS POR RANGO DE EDADES **CASOS**{: .color-primary}<|{Rango_edades}|chart|mode=markers|x=Rango_edad|y=Numero_casos|marker={marker}|>
 
 ## TOP 5 DE MODALIDADES DE HURTOS EN **HOMBRES**{: .color-primary}<|{tabla_modalidad_hombre}|chart|type=pie|values=Numero_casos|labels=Modalidad|marker={marker}|>
 

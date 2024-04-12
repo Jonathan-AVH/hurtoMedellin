@@ -63,17 +63,17 @@ pagina_1 = Markdown("""
 <|toggle|theme|>
 
 
-# 📊 Casos de hurtos en **la ciudad de Medellin**{: .color-primary}
+# 📊 Casos de hurtos en **la ciudad de Medellín**{: .color-primary}
 
 <|layout|columns=1fr 1fr|
 
-## TOP 10 BARRIOS CON MAS **CASOS**{: .color-primary}<|{dataframe_ejemplo}|chart|type=bar|x=Nombres_barrios|y=Numero_casos|>
+## TOP 10 BARRIOS CON MÁS **CASOS**{: .color-primary}<|{dataframe_ejemplo}|chart|type=bar|x=Nombres_barrios|y=Numero_casos|>
 
-## CUAL ES EL GENERO CON MAS NUMEROS DE **CASOS**{: .color-primary}<|{tabla_sexo_1}|chart|type=pie|values=Numero_casos|labels=sexo|>
+## CUAL ES EL GÉNERO CON MÁS NÚMERO DE **CASOS**{: .color-primary}<|{tabla_sexo_1}|chart|type=pie|values=Numero_casos|labels=sexo|>
 
 ## TOP 5 DE LAS MODALIDADES DE **HURTOS**{: .color-primary}<|{tabla_modalidad}|chart|type=bar|x=Modalidad|y=Numero_casos|>
 
-## TOP 7 DE LOS BIENES MAS **ROBADOS**{: .color-primary}<|{tabla_bien_robado}|chart|type=funnelarea|values=Numero_casos|text=bien|layout={layout}|>                
+## TOP 7 DE LOS BIENES MÁS **ROBADOS**{: .color-primary}<|{tabla_bien_robado}|chart|type=funnelarea|values=Numero_casos|text=bien|layout={layout}|>                
 |>
 
 """)

@@ -94,12 +94,12 @@ pagina_2 = Markdown("""
 
 <|layout|columns=1fr 1fr|
 
-## LOS MEDIOS DE TRANSORTE EN DONDE SE PRESENTAN MAS **CASOS**{: .color-primary}<|{tabla_medio_transporte}|chart|type=bar|x=medio_transporte|y=Numero_casos|>
+## LOS MEDIOS DE TRANSORTE EN DONDE SE PRESENTAN MÁS **CASOS**{: .color-primary}<|{tabla_medio_transporte}|chart|type=bar|x=medio_transporte|y=Numero_casos|>
                     
-## TOP 10 DE LAS HORAS DONDE MAS SE PRESENTAN **HURTOS**{: .color-primary}<|{tabla_hora_robo}|chart|type=bar|x=Hora|y=Numero_casos|>
+## TOP 10 DE LAS HORAS DONDE MÁS SE PRESENTAN **HURTOS**{: .color-primary}<|{tabla_hora_robo}|chart|type=bar|x=Hora|y=Numero_casos|>
 
 ## INCREMENTO DE CASOS DE HURTO DESDE EL AÑO **2002 AL 2019**{: .color-primary}<|{tabla_año_robo}|chart|mode=markers|x=Año|y=Numero_casos|marker={marker}|>
 
-## NUMERO DE CASOS QUE SE PRESENTAN EN CADA **MES**{: .color-primary}<|{tabla_mes_robo}|chart|type=funnel|x=Numero_casos|y=Mes|marker={marker}|options={options}|>                
+## NÚMERO DE CASOS QUE SE PRESENTAN EN CADA **MES**{: .color-primary}<|{tabla_mes_robo}|chart|type=funnel|x=Numero_casos|y=Mes|marker={marker}|options={options}|>                
 |>
 """)
