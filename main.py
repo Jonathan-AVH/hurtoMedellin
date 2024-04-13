@@ -10,3 +10,4 @@ from src.pages.pagina3 import pagina_3
 pages = {"PAGINA-1": pagina_1, "PAGINA-2": pagina_2, "PAGINA-3": pagina_3}
 
 Gui(pages=pages).run()
+
